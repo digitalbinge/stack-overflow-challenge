@@ -3,6 +3,7 @@ let stackOverflowData = {
   navbar_links: ['Questions', 'Developer Jobs', 'Tags', 'Users'],
   top_questions: [
     {
+      id: 1,
       title: 'What is an alternative to JS?',
       tags: ['javascript','alternative'],
       votes: 0,
@@ -12,6 +13,7 @@ let stackOverflowData = {
       author: 'Jane Smith'
     },
     {
+      id: 2,
       title: 'How do I become a JS ninja?',
       tags: ['javascript','ninja'],
       votes: 0,
@@ -21,6 +23,7 @@ let stackOverflowData = {
       author: 'John Smith'
     },
     {
+      id: 3,
       title: 'Help with KanyeJS',
       tags: ['javascript','kanye','syntax'],
       votes: 0,
@@ -30,6 +33,7 @@ let stackOverflowData = {
       author: 'Kim West'
     },
     {
+      id: 4,
       title: 'SimonJS - my door wont open',
       tags: ['javascript','simonjs','door','coffee'],
       votes: 0,
@@ -41,10 +45,12 @@ let stackOverflowData = {
   ],
   featured_on_meta: ['Best places for dog photos', 'Chocolate shake tips'],
   hot_meta_posts: [{
+    id: 1,
     post: 'I literally just died when I ran out of coffee tho',
     votes: 20
   },
   {
+    id: 2,
     post: 'hashtagz4dayz',
     votes: 13
   }]
